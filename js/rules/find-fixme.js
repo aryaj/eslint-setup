@@ -1,8 +1,6 @@
 module.exports = {
     create(context){
         function findComments(comment){
-            console.log(context.options);
-            console.log("comment",comment)
             // if(comment.value.toLowerCase().indexOf('fixme') !== -1){
             //     context.report(comment, "FIXME is not allowed in comments")
             // }

@@ -1,11 +1,11 @@
 //Todo
 
-// function getPayments(){
-//     return 1;
-// }
+function getPayments(){
+    return 1;
+}
 
-/* function getLatestPayments(){
+function getLatestPayments(){
     return 'latest payments';
-} */
+}
 
-// getPayments();
+getLatestPayments();
