@@ -1,0 +1,41 @@
+{
+    "env": {
+        "browser": true
+    },
+    // To support import export parserOptions are used
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module"
+    },
+    // eslint-recommended implements the default esrules, in eslint website in rules possible problems rules comes in recommended
+    "extends": "eslint:recommended",
+    "rules": {
+        "indent": [
+            "error",
+            4
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "consistent-return": "error",
+        "no-console": "error",
+        // used to restrict import of some module in case some other module of same functionality package is already used. Give error on usage of underscore package. 
+        "no-restricted-imports": [
+            "error",
+            "underscore"
+        ],
+        // Use of === and !== instead of == and !=
+        "eqeqeq": "error",
+        // Custom rule defined in rules folder
+        "find-payments": "error"
+    }
+}
