@@ -1,5 +1,7 @@
 import lodash from 'lodash';
 
+//FIXME
+
 var arr = ['apples','grapes','oranges'];
 
 lodash.findIndex(arr,'grapes');

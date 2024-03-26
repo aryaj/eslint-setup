@@ -36,6 +36,14 @@
         // Use of === and !== instead of == and !=
         "eqeqeq": "error",
         // Custom rule defined in rules folder
-        "find-payments": "error"
+        // If to test some deprecated function is used
+        "find-payments": "error",
+        // To check is some text is present in the comment
+        "find-fixme": [
+            "error",
+            "fixme",
+            "todo"
+        ],
+        "function-param": "error"
     }
 }

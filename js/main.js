@@ -5,4 +5,4 @@ function  checkNumber(num) {
     return false;
 }
 
-checkNumber(9);
+checkNumber(8);
